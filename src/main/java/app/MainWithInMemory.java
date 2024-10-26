@@ -50,7 +50,7 @@ public class MainWithInMemory {
         final SignupViewModel signupViewModel = new SignupViewModel();
 
         final InMemoryUserDataAccessObject userDataAccessObject = new InMemoryUserDataAccessObject();
-        // new CommonUserFactory()
+
         final SignupView signupView = SignupUseCaseFactory.create(viewManagerModel, loginViewModel,
                                                                   signupViewModel, userDataAccessObject);
         views.add(signupView, signupView.getViewName());
