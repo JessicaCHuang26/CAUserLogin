@@ -158,4 +158,8 @@ public class DBUserDataAccessObject implements SignupUserDataAccessInterface,
         this.currentUser = name;
     }
 
+    public String getCurrentUser() {
+        return currentUser;
+    }
+
 }

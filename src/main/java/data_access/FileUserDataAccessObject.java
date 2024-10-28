@@ -109,4 +109,8 @@ public class FileUserDataAccessObject implements SignupUserDataAccessInterface,
         this.currentUser = name;
     }
 
+    public String getCurrentUser() {
+        return currentUser;
+    }
+
 }
